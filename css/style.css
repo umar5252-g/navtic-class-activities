@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.main-header {
+  text-align: center;
+}
