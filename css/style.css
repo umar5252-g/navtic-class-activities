@@ -1,32 +1,36 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-size: 18px;
 }
 
+.logo {
+  color: white;
+}
 header {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px 0 25px;
   background-color: black;
-  color: white;
   height: 300px;
 }
 
-.nav {
-  color: white;
+.navbar-container {
   display: flex;
-  align-items: center;
+  gap: 12px;
+}
+ul {
+  display: flex;
 }
 
-.nav-links {
-  display: flex;
+ul li a {
   list-style: none;
+  text-decoration: none;
+  color: white;
+  gap: 50px;
 }
 
 .main-header {
-  text-align: center;
 }
