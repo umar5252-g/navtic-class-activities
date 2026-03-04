@@ -40,17 +40,17 @@ const user = {
 
 document.writeln(
   "User Data -->",
-  "\n name: ",
+  " name: ",
   user.name,
-  "\n age: ",
+  " age: ",
   user.age,
-  "\ngender: ",
+  "gender: ",
   user.gender,
-  "\n year: ",
+  " year: ",
   user.year,
-  "\n country: ",
+  " country: ",
   user.country,
-  "\n isStudent: ",
+  " isStudent: ",
   user.isStudent,
 );
 
