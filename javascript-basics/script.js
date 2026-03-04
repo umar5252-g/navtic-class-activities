@@ -11,7 +11,7 @@
 // const no2 = 2;
 // const no3 = 30;
 // const no4 = 4;
-// console.log("your age : ", no1);
+// console.log("your age : ", Number(no1) + no2);
 
 // console.log("no1 + no2:", no1 + no2);
 // console.log("no1 + no2: " + no1 + no2);
@@ -22,21 +22,24 @@
 // console.log(no1 <= no2 && no3 >= no4); // true
 // console.log(no1 <= no2 || no3 >= no4); // true
 
-const user = {
-  name: "umar",
-  age: "20",
-  gender: "male",
-  isStudent: true,
-  hobies: ["coding", "gaming", "reading"],
-  education: {
-    degree: "bachelor",
-    field: "computer science",
-    university: "Islamia collage",
-  },
-};
+// const user = {
+//   name: "umar",
+//   age: "20",
+//   gender: "male",
+//   year: "3rd year",
+//   country: "Pakistan",
+//   isStudent: true,
+//   city: "Peshawar",
+//   hobies: ["coding", "gaming", "reading"],
+//   education: {
+//     degree: "bachelor",
+//     field: "computer science",
+//     university: "Islamia collage",
+//   },
+// };
 
 // (console.log(user), console.log(user.name));
 // console.log(user.age);
 // console.log(user.isStudent);
 // console.log(user.hobies[1]);
-console.log(user.education.university);
+// console.log(user.education.university);
