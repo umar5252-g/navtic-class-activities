@@ -40,20 +40,28 @@ const user = {
 
 document.writeln(
   "User Data -->",
-  " name: ",
+  "<br> name: ",
   user.name,
-  " age: ",
+  "<br> age: ",
   user.age,
-  "gender: ",
+  "<br> gender: ",
   user.gender,
-  " year: ",
+  "<br> year: ",
   user.year,
-  " country: ",
+  "<br> country: ",
   user.country,
-  " isStudent: ",
+  "<br> isStudent: ",
   user.isStudent,
 );
 
+console.log(
+  "user data -->",
+
+  "\n name: ",
+  user.name,
+  "\n age: ",
+  user.age,
+);
 // (console.log(user), console.log(user.name));
 // console.log(user.age);
 // console.log(user.isStudent);
