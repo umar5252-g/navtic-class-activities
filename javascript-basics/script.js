@@ -1,3 +1,25 @@
+// different premptive data types
+// number , string, boolean, null, undefinded,
+// bigint and symbol
+
+//Premptive data types are complex values — stored as reference, mutable.
+// arr, object and functions
+// PRIMITIVE — copy by VALUE
+let a = 10;
+let b = a;
+b = 20;
+console.log(a); //  a is unchanged
+console.log(b); // 20
+
+// NON PRIMITIVE — copy by REFERENCE
+// let obj1 = {
+//   name: "fahad",
+// };
+// let obj2 = obj1;
+// obj2 points to SAME object
+// obj2.name = "umar";
+// console.log(obj1.name);
+// console.log(obj2.name);
 // console.log("hello world");
 // console.log(5 + 2);
 
@@ -99,3 +121,17 @@
 // }
 
 // console.log("sum exeeded from 100");
+
+// let str = "my name is umar";
+// let arr = str.split("");
+// let st = 0;
+// let end = arr.length - 1;
+// while (st < end) {
+//   let temp = str[st];
+//   arr[st] = str[end];
+//   arr[end] = temp;
+//   st++;
+//   end--;
+// }
+// str = arr.join("");
+// console.log(str);
