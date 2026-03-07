@@ -4,12 +4,14 @@
 
 //Premptive data types are complex values — stored as reference, mutable.
 // arr, object and functions
+
+//STORED BY VALUE VS REFRENCE
 // PRIMITIVE — copy by VALUE
-let a = 10;
-let b = a;
-b = 20;
-console.log(a); //  a is unchanged
-console.log(b); // 20
+// let a = 10;
+// let b = a;
+// b = 20;
+// console.log(a); //  a is unchanged
+// console.log(b); // 20
 
 // NON PRIMITIVE — copy by REFERENCE
 // let obj1 = {
