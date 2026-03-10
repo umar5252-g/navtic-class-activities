@@ -137,3 +137,128 @@
 // }
 // str = arr.join("");
 // console.log(str);
+
+// const addition = (a, b) => {
+//   return a + b;
+// };
+// const sum = addition(2, 4);
+// console.log(sum);
+
+// const arrowFun = () => {
+//   console.log("this is arrow function");
+// };
+// const addition = (num1, num2) => {
+//   console.log(num1 + num2);
+// };
+
+// const defArg = (num1 = 20) => {
+//   console.log(num1);
+// };
+
+// defArg;
+
+// Array
+
+// const arr = [1, "umar", true, undefined, null];
+// console.log(arr);
+// console.log(arr[0]);
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// const addition = (num1, num2) => {
+//   return num1 + num2;
+// };
+// let res = addition(12, 23);
+// console.log(res);
+
+// const objFun = (student) => {
+//   console.log(student.name);
+// };
+
+// objFun(student);
+
+// let arr = [1, 2, 3, 4];
+// arr.shift();
+// console.log(arr);
+
+// let student = {
+//   name: "umar",
+//   age: 22,
+//   gender: "male",
+//   marks: [35, 53, 45, 75, 70],
+// };
+
+// student.weight = "55kg";
+// console.log(student.weight);
+
+// for (let i = 0; i < student.marks.length; i++) {
+//   console.log(student.marks[i]);
+// }
+// function originalFunction() {
+//   return "Hello, world!";
+// }
+
+// const newVariable = originalFunction;
+
+// console.log(newVariable());
+
+// let obj1 = {
+//   name: "umar",
+// };
+
+// let obj2 = obj1;
+// obj2.name = "qasim";
+
+// console.log(obj1.name);
+// console.log(o
+
+// const numbers = [1, 2, 3];
+
+// // .map() - creates new array [2, 4, 6]
+// const doubled = numbers.map((n) => n * 2);
+
+// // .forEach() - logs 1, 2, 3 and returns undefined
+// numbers.forEach((n) => console.log(n));
+// let n = 2;
+// function square(n) {
+//   return n * n;
+// }
+
+// let squareRes = square(n);
+// console.log(squareRes);
+
+// const isEven = (num) => {
+//   if (num % 2 === 0) {
+//     console.log(num, " is even");
+//   } else {
+//     console.log(num, " is not even");
+//   }
+// };
+
+// isEven(9);
+
+// const student = ["umar", 22, "Islamia Collages", "male", [12, 3]];
+
+// for (let i = 0; i < student.length; i++) {
+//   console.log(student[i]);
+// }
+
+// function reverese(arr) {
+//   let arr2 = arr.split("");
+//   let st = 0;
+//   let end = arr.length - 1;
+//   while (st < end) {
+//     let temp = arr2[st];
+//     arr2[st] = arr2[end];
+//     arr2[end] = temp;
+//     st++;
+//     end--;
+//   }
+//   arr = arr2.join("");
+//   return arr;
+// }
+
+// let revArr = reverese("umar");
+
+// console.log(revArr);
