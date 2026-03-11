@@ -262,3 +262,27 @@
 // let revArr = reverese("umar");
 
 // console.log(revArr);
+
+// function largeNum(arr) {
+//   let lNum = 0;
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > arr[i - 1]) {
+//       lNum = arr[i];
+//     }
+//   }
+//   return lNum;
+// }
+
+// let largNumber = largeNum([1, 222, 77, 21, 3]);
+// console.log(largNumber);
+
+// let person = {
+//   firstname: "umar",
+//   lastname: "khan",
+// };
+
+// function fullName(person) {
+//   console.log(person.firstname, person.lastname);
+// }
+
+// fullName(person);
