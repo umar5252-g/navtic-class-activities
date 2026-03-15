@@ -286,3 +286,13 @@
 // }
 
 // fullName(person);
+
+// document.title = "new name";
+
+// const accessH1 = document.getElementsByTagName("h1");
+
+// console.log(accessH1[0]);
+
+// const para = document.getElementsByClassName("para");
+
+// console.log(para);
