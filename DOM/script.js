@@ -3,7 +3,7 @@
 //   alert("button was clicked");
 // });
 
-let list = document.getElementById("list");
+// let list = document.getElementById("list");
 // let newItem = document.createElement("li");
 // newItem.textContent = "New item";
 
@@ -31,3 +31,19 @@ let list = document.getElementById("list");
 //   newItem.innerText = "New item";
 //   list.replaceChild(newItem, item);
 // });
+
+let form = document.getElementById("user-form");
+let error_msg = document.getElementById("error-message");
+
+form.addEventListener("submit", function () {
+  let name = document.getElementById("name-input").value;
+  let email = document.getElementById("email-input").value;
+
+  if (name === "" || email === "") {
+    error_msg.textContent = "all fields are required";
+    event.preventDefault();
+  } else {
+    alert("form submited successfully");
+    console.log(name);
+  }
+});
