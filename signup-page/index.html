@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="flex flex-col items-center justify-center gap-4 p-3">
+      <h1 class="text-2xl font-bold">Sign up</h1>
+      <form id="user-form" class="flex flex-col bg-white p-6 rounded shadow-md">
+        <input
+          type="text"
+          id="first-name"
+          placeholder="First name"
+          class="px-4 border border-gray-300 rounded"
+        />
+        <br />
+
+        <input
+          type="text"
+          id="last-name"
+          placeholder="Last name"
+          class="px-4 py-1 border border-gray-300 rounded"
+        />
+        <br />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Email"
+          class="px-4 py-1 border border-gray-300 rounded"
+        />
+        <br />
+
+        <input
+          type="date"
+          id="birth-date"
+          placeholder="Birth date"
+          class="px-4 py-1 border border-gray-300 rounded"
+        />
+        <br />
+        <input
+          type="tel"
+          id="phone-number"
+          placeholder="Phone number"
+          class="px-4 py-1 border border-gray-300 rounded"
+        />
+        <br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          class="px-4 py-1 border border-gray-300 rounded"
+        />
+        <br />
+        <input
+          type="password"
+          id="confirm-password"
+          placeholder="Confirm password"
+          class="px-4 py-1 border border-gray-300 rounded"
+        />
+
+        <br />
+        <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">
+          Sign up
+        </button>
+      </form>
+      <p id="error-message" style="color: red"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
