@@ -18,13 +18,16 @@ form.addEventListener("submit", function (event) {
     birthDate === ""
   ) {
     error_message.textContent = "Please fill in all the fields.";
+    error_message.style.color = "red";
     return;
   }
   if (password !== confirmPassword) {
     error_message.textContent = "Passwords dont match";
+    error_message.style.color = "red";
     return;
   } else if (password.length < 8) {
     error_message.textContent = "Password should have least 8 charecters";
+    error_message.style.color = "red";
     return;
   } else {
     error_message.textContent = "";

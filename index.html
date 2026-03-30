@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function / array / array methods</title>
+  </head>
+  <body>
+    <!-- <input type="text" name="name" id="name" /> -->
+
+    <textarea name="" id="color" rows="10" cols="30"></textarea>
+    <button id="click_me">Click Me</button>
+    <!-- internal js -->
+    <script>
+      console.log("internal javascripts");
+
+      // function
+      // function declaration
+      // function expression
+
+      // 1) function declaration --> userdefined word()
+      // func(4, 5);
+      // function func(a, b) {
+      //   // body of function
+      //   console.log("function called..!", a + b);
+      // }
+      // function calling
+      // func(1, 2);
+      // func(5, 5);
+
+      // 2) function expression
+      // funct(2, 3);
+      // const funct = (x, y) => {
+      //   console.log("function expression called...!", x + y);
+      // };
+      // funct(8, 5);
+
+      // anonimus function --> function without any name
+      // callback funtion --> which is use as a parameter in the parent funtion
+      // syntax of anonimus function
+      // function(){}
+      // (){} --> anonimus fucntion
+      // ()=>{} --> callback fucntion
+
+      // array
+
+      // const array = ["apple", "banana"];
+      // console.log(array[0], array);
+      // foreach --> change in original array
+      // map --> it give us new array
+
+      // forach with call back function
+      // array.forEach(() => {
+      //   console.log("call back function called ...!");
+      // });
+
+      // foreach with call back function with paramenters
+      // array.forEach((idx, itm) => {
+      //   console.log(`item : ${idx} : with ${itm}`);
+      // });
+
+      // dom topic
+
+      // accessing
+
+      // const input = document.getElementById("name");
+      // const btn = document.getElementById("click_me");
+
+      // addeventlistner
+
+      // btn.addEventListener('',callbackfunction);
+      // btn.addEventListener("click", function () {
+      //   console.log("function is listening..!");
+      // });
+      // btn.addEventListener("click", function () {
+      //   console.log(input.value);
+      // });
+      // btn.addEventListener("click", function () {
+      //   if (input.value === "") {
+      //     alert("please fill input 🥹");
+      //     return;
+      //   }
+      //   console.log(input.value);
+      // });
+
+      // change box background color
+      // access
+
+      // const access_textarea = document.getElementById("color");
+      // const access_btn = document.getElementById("click_me");
+
+      // // random
+      // access_btn.addEventListener("click", function () {
+      //   const randome_color = Math.round(Math.random() * 256);
+      //   const R = Math.round(Math.random() * 256);
+      //   const G = Math.round(Math.random() * 256);
+      //   const B = Math.round(Math.random() * 256);
+      //   console.log(R, G, B);
+
+      //   // console.log("function called ..!");
+      //   // console.log(randome_color);
+      //   access_textarea.style.backgroundColor = `rgb(${R},${G},${B})`;
+      // });
+    </script>
+  </body>
+</html>
